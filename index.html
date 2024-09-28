@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sindhu's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="sticky-nav">
+      <ul>
+        <li><a href="#introduction">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="introduction">
+    <div class="hero">
+      <img src="sindhu1.jpg" alt="Sindhu's Profile Picture">
+      <h1>Hello, I'm Sindhu</h1>
+      <p>
+        Hello, I am Sindhu. I am from Andhra Pradesh, West Godavari. I have completed my Post Graduation (MCA) at Swarnandhra College of Engineering and Technology, Narsapur.
+        My technical expertise spans across various programming languages such as Java, React.js, HTML, CSS. I have worked on projects like Agri-Equipment-Rental System,
+        Cloud Data Deduplication Scheme based on Blockchain, and Urban Mobility Solutions. I am always eager to learn and collaborate on projects that challenge my skills 
+        and allow me to contribute meaningfully to the tech community.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="fas fa-code"></i>
+        <h3>Java</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-html5"></i>
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fab fa-css3-alt"></i>
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h3>MySQL</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <img src="cloud.png" alt="Project 1">
+        <h3>Cloud Data Deduplication Scheme Based on Blockchain</h3>
+        <p>It stores only a single copy in the cloud.</p>
+      </div>
+      <div class="project">
+        <img src="agri.jpeg" alt="Project 2">
+        <h3>Agri-Equipment-Rental System</h3>
+        <p>Using this website, users can rent agricultural equipment.</p>
+      </div>
+      <div class="project">
+        <img src="urban.png" alt="Project 3">
+        <h3>Urban Mobility Solutions</h3>
+        <p>Allows users to view and book transportation and parking slots.</p>
+      </div>
+      <div class="project">
+        <img src="bike.png" alt="Project 4">
+        <h3>Bike Rental System</h3>
+        <p>Using this website, users can rent bikes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Java Complete Course From Intellipaat Academy</li>
+      <li>Html Training Spoken Tutorial Project,IIT Bombay 85%</li>
+      
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+      <form action="submit-form.php" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/sindhu" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/sindhu" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sindhu. All rights reserved.</p>
+  </footer>
+</body>
+</html>
